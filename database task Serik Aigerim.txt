@@ -1,0 +1,32 @@
+create table Students(
+student_id number(10) NOT NULL,
+student_name varchar2(50) NOT NULL,
+grade number(10)
+);
+
+select * from Students;
+
+create or replace TRIGGER first
+before insert or update ON Students;
+for each row
+
+begin
+ if Length(:NEW.student_name)<4
+ then
+  Raise_application_error(-20326,'Student name must be at least 4 character.');
+ end if;
+end;
+
+create or replace TRIGGER second
+before insert or update ON Students
+for each row
+
+begin
+ if Length(:NEW.grade)<49
+ then
+  Raise_application_error(-20326, 'Grade must be greater than 49');
+ end if;
+end;
+
+insert into students values(082, Serik A, 89);
+
