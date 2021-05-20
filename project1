@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="utf-8">
+    <title>Project</title>
+    <link rel="stylesheet" type="text/js" href="projectjs.js">
+    <link rel="stylesheet" type="text/css" href="proje.css">
+    <script src="yocha.js"></script> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+    
+
+<ul>
+  <li><a href="nfs">NFS</a></li>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">Add new note</a></li>
+  <li><a href="about.html">My favourites</a></li>
+  <li><a href="registration.html">Registration</a></li>
+  <li><a href="#faq">About us</a></li>
+  <li><a href="faq2">FAQ</a></li>
+
+ 
+
+</ul>
+<link rel="stylesheet" type="text/css" href="new pro.css">
+<div class="post">
+  <h1 class="headertekst">Notes for soul</h1>
+  <h4>Find your favourite note here </h4>
+  
+  <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="img2.jpg" style="width:100%">
+      
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="img5.jpg" style="width:100%">
+      
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="img9.jpg" style="width:100%">
+      
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+
+
+  
+       
+       
+  <div class="foter">
+      <footer class="page-footer font-small stylish-color-dark pt-4" style="background-color: rgb(192,192,192);">
+        <div class="container text-center text-md-left">
+          <div class="row">
+            <div class="col-md-4 mx-auto">
+              <h5 class="fotering font-weight-bold text-uppercase mt-3 mb-4">About us</h5>
+              <p class="fotering" >This site was created for sharing with good memories from adventures. This idea belongs to Aigerim.</p>
+            </div>
+            <hr class="clearfix w-100 d-md-none">
+            
+            <hr class="clearfix w-100 d-md-none">
+            <div class="col-md-2 mx-auto">
+              <h5 class="fotering font-weight-bold text-uppercase mt-3 mb-4">Sections</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="fotering"href="page1.html">Cities</a>
+                </li>
+                <li>
+                  <a class="fotering"href="page2.html">Our Best Notes</a>
+                </li>
+                <li>
+                  <a class="fotering" href="page3.html">Interesting </a>
+                </li>
+                <li>
+                  <a class="fotering" href="page4.html">Join Us</a>
+                </li>
+              </ul>
+      
+            </div>
+            <hr class="clearfix w-100 d-md-none">
+            <div class="col-md-2 mx-auto">
+              <h5 class="fotering font-weight-bold text-uppercase mt-3 mb-4">Follow</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="fotering" href="Facebook.com">Facebook</a>
+                </li>
+                <li>
+                  <a class="fotering" href="youtube.com">Youtube</a>
+                </li>
+                <li>
+                  <a class="fotering" href="instagram.com">Instagram</a>
+                </li>
+                <li>
+                  <a class="fotering" href="vk.com">Vkontakte</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+
+        <ul class="list-unstyled list-inline text-center">
+          <div class="container">
+            <a href="https://twitter.com/" class="btn btn-social-icon btn-twitter" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-square-o fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x"></i>
+              </span>
+            </a>
+            <a href="https://youtube.com/" class="btn btn-social-icon btn-youtube" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-square-o fa-stack-2x"></i>
+                <i class="fa fa-youtube-square fa-stack-1x"></i>
+              </span>
+            </a>
+            <a href="https://instagram/" class="btn btn-social-icon btn-instagram" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-square-o fa-stack-2x"></i>
+                <i class="fa fa-instagram fa-stack-1x"></i>
+              </span>
+            </a>
+            <a href="https://vk.com/" class="btn btn-social-icon btn-vkontakte" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-square-o fa-stack-2x"></i>
+                <i class="fa fa-vk fa-stack-1x"></i>
+              </span>
+            </a>
+          </div>
+        </ul>
+        <div class="footer-copyright text-center py-3">© 2019
+          <a class="fotering" href="aigerimserik48@gmail.com">Aigerim Serik</a>
+        </div>
+      </footer>
+      
+  #js
+     var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+#css
+body{
+  margin: 0;
+  padding:0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffa069;
+  font-family: 'Playfair Display', serif;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  width: 160px;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  font-size:15px;
+}
+
+li a:hover {
+  background-color: rgb(240, 123, 240); 
+  
+  transition: 0.5s;
+  text-transform: uppercase;
+
+}
+
+
+h1{
+  font-size: 40px;
+  margin: 0;
+  color: #f37806;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+h4{
+  font-size: small;
+  margin: 0;
+  color: rgba(0, 0, 150, 0.5);
+  font-family: 'Apple Chancery', cursive;
+  font-style: italic;
+  letter-spacing: 2px;
+  text-align: center;
+}
+:root {
+  background-color: hsl(0, 0%, 100%);
+}
+
+:root {
+  background-color: hsla(0, 0, 0, 1);
+}
+
+line {
+        stroke:#f37806;
+        stroke-width: 5;
+        stroke-dasharray: 5, 20;
+}
+
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
