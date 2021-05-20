@@ -1,0 +1,60 @@
+body {
+	
+  background-color: rgb(197, 59, 231);
+}
+
+h1 {
+	text-align: center;
+	font-size: 100px;
+}
+
+.cube{
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+
+}
+
+#cont {
+  display: block;
+  width: 30%;
+  margin: auto;
+}
+
+#cube1 {
+	background-color: green;
+}
+#cube2 {
+	background-color: rgb(150,0,14); 
+}
+#cube3 {
+	background-color: #F9A602
+}
+#cube4 {
+	background-color: blue;
+	margin
+}
+
+.lose {
+	background-color: red;
+	opacity: 0.8;
+}
+.win {
+	background-color: green;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;	
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+.start{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
