@@ -1,0 +1,10 @@
+Serik Aigerim 
+
+SELECT * FROM dual; 
+select * from (select books.book_name, count(*) as TOTAL, LISTAGG(authors.last_name,  'and') WITHIN GROUP (ORDER by authors.last_name) "authors"
+from authors_books inner join books on
+books.book_id = authors_books.book_id
+inner join authors on 
+authors_books.author_id = authors.author_id
+group by books.book_name order by 
+books.book_name) where TOTAL>=2
